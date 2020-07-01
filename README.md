@@ -53,6 +53,9 @@
 # backendディレクトリにて以下を実行
 yarn && yarn pack
 
+# frontendディレクトリにて以下を実行
+yarn
+
 # frontendディレクトリ直下に、下記を参考に「.env」ファイルを作成する
 API_BASE_URL=https://staging.api.pring.app
 PRING_APP_CUSTOM_SCHEME=stagingpring
@@ -67,9 +70,9 @@ pod install
 セットアップ後、以下のコマンドでエミュレータまたはシミュレータで実行できる。
 
 ```
+# iOSシミュレータを使う場合
+yarn ios
+
 # Androidエミュレータを使う場合
 yarn android
-
-# iOSエミュレータを使う場合
-yarn ios
 ```
