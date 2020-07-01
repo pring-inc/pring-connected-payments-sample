@@ -1,6 +1,6 @@
 {
   "name": "pring-payment-demo-backend",
-  "version": "0.1.4",
+  "version": "0.1.3",
   "description": "Backend HTTP server for pring payment demo app",
   "license": "UNLICENSED",
   "scripts": {
