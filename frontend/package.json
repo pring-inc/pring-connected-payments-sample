@@ -16,7 +16,7 @@
     "@react-navigation/stack": "^5.1.1",
     "@types/react-native-vector-icons": "^6.4.5",
     "luxon": "^1.22.0",
-    "node-forge": "^0.9.1",
+    "node-forge": "^0.10.0",
     "pring-payment-demo-backend": "../backend/pring-payment-demo-backend-v0.1.4.tgz",
     "react": "16.9.0",
     "react-native": "0.61.5",
