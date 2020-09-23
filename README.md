@@ -51,7 +51,7 @@
 
 ```
 # backendディレクトリにて以下を実行
-yarn && yarn pack
+yarn && yarn build && yarn pack
 
 # frontendディレクトリにて以下を実行
 yarn
