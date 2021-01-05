@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "ajv": "^6.10.2",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "luxon": "^1.21.3",
     "node-forge": "^0.9.1",
