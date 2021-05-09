@@ -29,7 +29,7 @@
     "react-native-screens": "^2.3.0",
     "react-native-sensitive-info": "^5.5.5",
     "react-native-vector-icons": "^6.6.0",
-    "url-parse": "^1.4.7"
+    "url-parse": "^1.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
