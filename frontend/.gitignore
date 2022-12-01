@@ -20,7 +20,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-project.xcworkspace
+ios/.xcode.env.local
 
 # Android/IntelliJ
 #
@@ -29,6 +29,8 @@ build/
 .gradle
 local.properties
 *.iml
+*.hprof
+.cxx/
 
 # Visual Studio Code
 #
@@ -53,15 +55,17 @@ buck-out/
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
 
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
 
 # Bundle artifact
 *.jsbundle
 
-# CocoaPods
+# CocoaPods / Ruby
 /ios/Pods/
+vendor/bundle/
 
 ################################################################################
 # Add your application specific entries below
@@ -69,3 +73,4 @@ buck-out/
 
 /.env*
 !/.env.example
+
