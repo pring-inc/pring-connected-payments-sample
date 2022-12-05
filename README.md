@@ -63,8 +63,10 @@ PRING_PAYMENT_BASE_URL=https://staging.api.pring.app
 PRING_PAYMENT_CLIENT_ID=（クライアントID）
 PRING_PAYMENT_CLIENT_SECRET=（クライアントシークレット）
 
+# iOSシミュレータを使う場合、frontend ディレクトリにて以下を実行
+bundle install
 # iOSシミュレータを使う場合、frontend/iosディレクトリにて以下を実行
-pod install
+bundle exec pod install
 ```
 
 セットアップ後、以下のコマンドでエミュレータまたはシミュレータで実行できる。
